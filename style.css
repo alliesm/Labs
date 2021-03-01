@@ -1,16 +1,50 @@
-body {
-  background-color: lightblue;
-  
-}
+.wrapper {
+        display: grid;
+        grid-template-columns: 33% 67%;
+    }
 
-h1 {
-  color: rgb(255, 255, 255);
-  
-  text-align: center;
-}
-
-p {
-  font-family: Verdana;
-  color: red
-  font-size: 20px;
-}
+    #header {
+        font-size: 20pt;
+        text-align: center;
+        background-color: beige;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    #nav {
+        font-size: 20pt;
+        text-align: left;
+        background-color: lightgrey;
+    }
+    #main {
+        font-size: 20pt;
+        text-align: center;
+        background-color: pink;
+    }
+    #footer {
+        font-size: 20pt;
+        text-align: center;
+        background-color: rgb(224, 107, 126);
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    #meat{
+      background-color: rgba(243, 34, 34, 0.634);
+    }
+    #veggie{
+      background-color: lightgreen;
+    }
+    #dairy{
+      background-color: lightyellow;
+    }
+    #title{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #instructions{
+      font-style: italic;
+    }
+    nav li:hover{
+      background-color: lightblue;
+    }
+ul.no-bullets{
+  list-style-type: none;
+}   
